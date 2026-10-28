@@ -1,0 +1,61 @@
+# Приоритет, с которым плагин меняет текст сообщения (нужен рестарт).
+# LOWEST — плагин красит сообщение ДО того, как его обработает Chatty.
+chat-priority: LOWEST
+
+# Текст для предпросмотра в меню
+preview-text: "Hello! Так выглядит ваш чат"
+
+# Не больше 21 цвета и 21 градиента (3 ряда в меню).
+# Цвета в формате "#RRGGBB" (кавычки обязательны).
+colors:
+  - {id: red,      name: "Красный",      color: "#FF5555"}
+  - {id: crimson,  name: "Малиновый",    color: "#DC143C"}
+  - {id: orange,   name: "Оранжевый",    color: "#FF9F1C"}
+  - {id: gold,     name: "Золотой",      color: "#FFD700"}
+  - {id: yellow,   name: "Жёлтый",       color: "#FFFF55"}
+  - {id: lime,     name: "Лаймовый",     color: "#9EF01A"}
+  - {id: green,    name: "Зелёный",      color: "#55FF55"}
+  - {id: emerald,  name: "Изумрудный",   color: "#2ECC71"}
+  - {id: mint,     name: "Мятный",       color: "#98FF98"}
+  - {id: aqua,     name: "Бирюзовый",    color: "#00F5D4"}
+  - {id: cyan,     name: "Голубой",      color: "#55FFFF"}
+  - {id: sky,      name: "Небесный",     color: "#4CC9F0"}
+  - {id: blue,     name: "Синий",        color: "#4D6BFF"}
+  - {id: indigo,   name: "Индиго",       color: "#7B2CBF"}
+  - {id: purple,   name: "Фиолетовый",   color: "#A855F7"}
+  - {id: magenta,  name: "Пурпурный",    color: "#FF55FF"}
+  - {id: pink,     name: "Розовый",      color: "#FF69B4"}
+  - {id: rose,     name: "Роза",         color: "#FF99C8"}
+  - {id: white,    name: "Белый",        color: "#FFFFFF"}
+  - {id: silver,   name: "Серебряный",   color: "#C0C0C0"}
+  - {id: bronze,   name: "Бронзовый",    color: "#CD7F32"}
+
+# Градиенты: от 2 цветов и больше
+gradients:
+  - {id: sunset,   name: "Закат",             colors: ["#FF5F6D", "#FFC371"]}
+  - {id: fire,     name: "Огонь",             colors: ["#FF0000", "#FF8800", "#FFEE00"]}
+  - {id: ocean,    name: "Океан",             colors: ["#2193B0", "#6DD5ED"]}
+  - {id: aurora,   name: "Северное сияние",   colors: ["#00C9FF", "#92FE9D"]}
+  - {id: candy,    name: "Сладкая вата",      colors: ["#FF9A9E", "#FECFEF"]}
+  - {id: neon,     name: "Неон",              colors: ["#FF00CC", "#5B5BFF"]}
+  - {id: toxic,    name: "Токсик",            colors: ["#B2FF00", "#00FF87"]}
+  - {id: royal,    name: "Королевский",       colors: ["#7F00FF", "#E100FF"]}
+  - {id: goldgrad, name: "Золото",            colors: ["#F7971E", "#FFD200"]}
+  - {id: ice,      name: "Лёд",               colors: ["#A1C4FD", "#C2E9FB"]}
+  - {id: lava,     name: "Лава",              colors: ["#FF4E50", "#F9D423"]}
+  - {id: galaxy,   name: "Галактика",         colors: ["#8E2DE2", "#4A6BFF", "#00D2FF"]}
+  - {id: forest,   name: "Лес",               colors: ["#11998E", "#38EF7D"]}
+  - {id: blood,    name: "Кровь",             colors: ["#FF1744", "#B00020"]}
+  - {id: rainbow,  name: "Радуга",            colors: ["#FF0000", "#FFFF00", "#00FF00", "#00FFFF", "#4D4DFF", "#FF00FF"]}
+  - {id: peach,    name: "Персик",            colors: ["#FF9966", "#FF5E62"]}
+  - {id: cream,    name: "Пломбир",           colors: ["#FFAFBD", "#FFC3A0"]}
+  - {id: dusk,     name: "Сумерки",           colors: ["#B24592", "#F15F79"]}
+  - {id: mojito,   name: "Мохито",            colors: ["#1D976C", "#93F9B9"]}
+  - {id: vampire,  name: "Вампир",            colors: ["#DC143C", "#A020F0"]}
+  - {id: dream,    name: "Мечта",             colors: ["#FF6FD8", "#6C5CE7"]}
+
+messages:
+  only-player: "&cЭту команду может использовать только игрок."
+  no-permission: "&cУ вас нет прав."
+  reloaded: "&aКонфиг перезагружен."
+  reset: "&aСтиль чата сброшен."
